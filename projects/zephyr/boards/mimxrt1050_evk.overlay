@@ -1,0 +1,11 @@
+/* Use the serial link on J22 */
+/ {
+	aliases {
+		ccid0 = &arduino_serial;
+	};
+};
+
+&arduino_serial {
+	status = "okay";
+	current-speed = <38400>;
+};
