@@ -85,15 +85,6 @@ void serial_cb(const struct device *dev, void *user_data)
 }
 
 /**
- * @brief Prepare the serial library
- * @note This function may have a different prototype, depending on the OS/target requirements
- */
-void CCID_LIB(SerialInit)(const char* szCommName)
-{
-
-}
-
-/**
  * @brief Open the serial comm port and activate the RX interrupt
  * @note This function must be implemented specifically for the OS/target
  */
